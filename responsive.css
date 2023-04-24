@@ -1,0 +1,85 @@
+@media screen and (max-width:425px){
+    h3{
+        width: max-content;
+        width: 425px;
+        position: relative;
+        left: -100px;
+        top: -50px;
+        padding-left: 15px;
+        padding-top: 8px;
+    }
+    .p1:hover::after{
+        opacity: 0;
+    }
+    #navbar{
+        display: block;
+        color: white;
+        font-size: 30px;
+        width: min-content;
+        padding: 15px 0 10px 370px;
+    }
+    #close{
+        display: block;
+        position: relative;
+        left: 280px;
+        top: 260px;
+        color: white;
+        font-size: 35px;
+        width: min-content;
+        display: none;
+    }
+    .p1{
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        left: -13px;
+    }   
+    .div2{
+        display: none;
+        flex-direction: column;
+        position: relative;
+        left: -970px;
+        top: -35px;
+        height: 250px;
+        width: 320px;
+        border-bottom-left-radius: 1px;
+    }
+    img{
+        position: relative;
+        left: 15%;
+    }
+    .sec-2{
+        left: 2px;
+        top: 160px;
+        width: fit-content;
+    }
+    .test{
+        left: 50px;
+    }
+    .div1{
+        width: 1px;
+        height: 1px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1328px){
+    .div2{
+        padding-right: 20px;
+    }
+}
+@media screen and (min-width:1067px){
+    .div2{
+        width: 100%;
+    }
+    body{
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            position: relative;
+            width: 100%;
+            min-height: 100%;
+    }
+}
+
